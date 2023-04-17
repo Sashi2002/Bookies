@@ -31,13 +31,21 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row justify-center items-center gap-6 max-[858px]:hidden text-sm font-bold">
+          
           <ul>Home</ul>
+
+          <Link href="/recommendation">
           <ul>Recommendation</ul>
+          </Link>
+
           <Link href="/subscription">
           <ul>Subscription</ul>
           </Link>
+
           <ul>Community</ul>
+
           <ul>Review</ul>
+
           <div className="">
             <Link href="/login">
               <button class="bg-black hover:bg-red-500  text-white font-bold p-1 rounded-full h-10 w-44">
