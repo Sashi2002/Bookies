@@ -19,6 +19,18 @@ return (
         </button>
     </div>
     <div className="flex-1 md:w-1/4 border border-gray-200 rounded-lg p-4">
+        <h2 className="text-lg font-medium mb-4">Student</h2>
+        <ul className="list-disc list-inside">
+            <li>1 Month free on Student ID</li>
+            <li>₹ 199 / Year</li>
+            <li>₹ 99 / 6 Months</li>
+            <li>Single User</li>
+        </ul>
+        <button className="bg-black text-white rounded-lg px-4 py-2 mt-4 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50">
+            Get Started
+        </button>
+    </div>
+    <div className="flex-1 md:w-1/4 border border-gray-200 rounded-lg p-4">
         <h2 className="text-lg font-medium mb-4">Pro</h2>
         <ul className="list-disc list-inside">
             <li>Access to 200+ books</li>
@@ -30,18 +42,6 @@ return (
             <li>2 device only</li>
         </ul>
         <button className="bg-black text-white rounded-lg px-4 py-2 mt-4 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50">
-            Get Started
-        </button>
-    </div>
-    <div className="flex-1 md:w-1/4 border border-gray-200 rounded-lg p-4">
-        <h2 className="text-lg font-medium mb-4">Student</h2>
-        <ul className="list-disc list-inside">
-            <li>1 Month free on Student ID</li>
-            <li>₹ 199 / Year</li>
-            <li>₹ 99 / 6 Months</li>
-            <li>Single User</li>
-        </ul>
-        <button className="bg-black text-white rounded-lg px-4 py-2 mt-4 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-50">
             Get Started
         </button>
     </div>

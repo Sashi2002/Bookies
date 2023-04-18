@@ -5,6 +5,7 @@ import { SiTwitter } from "react-icons/si";
 import { AiFillInstagram } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 import { SiOpensea } from "react-icons/si";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -32,14 +33,16 @@ const Footer = () => {
           </span>
         </div>
         <div className="flex justify-center items-center flex-row max-sm:flex-col gap-2 ">
-          <button class="bg-black hover:bg-red-500 text-white border-2 border-black font-bold p-2 rounded-full h-12 w-40 max-sm:w-72">
-            Subscription
-          </button>
+          <Link href="/subscription">
+            <button class="bg-black hover:bg-red-500 text-white border-2 border-black font-bold p-2 rounded-full h-12 w-40 max-sm:w-72">
+              Subscription
+            </button>
+          </Link>
           <button class="bg-white text-black border-2 border-black font-bold p-2 rounded-full h-12 w-40 max-sm:w-72">
             Community
           </button>
         </div>
-        <span className="text-sm mt-6">Agrawal Book Stores </span>
+        <span className="text-sm mt-6">Babla-Babli Book Stores </span>
       </div>
       <div className="flex justify-center items-center lg:w-3/5">
         <Image src={bluneo} />
