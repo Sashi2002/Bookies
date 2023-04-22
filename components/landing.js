@@ -31,11 +31,11 @@ const Landing = () => {
       </nav>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6 mx-4 sm:mx-6 md:mx-10">
         <Book1 />
-        <Book2 />
+        <Book6 />
         <Book3 />
         <Book4 />
+        <Book2 />
         <Book5 />
-        <Book6 />
       </div>
     </div>
   );

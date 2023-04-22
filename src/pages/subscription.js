@@ -6,7 +6,7 @@ const SubscriptionPage = () => {
   return (
     <main>
       <Navbar />
-      <div className="h-screen">
+      <div className="md:h-screen ">
         <header className="bg-black p-2">
           <h1 className="text-white text-2xl font-bold text-center py-6">
             Subscription
@@ -72,6 +72,5 @@ const SubscriptionPage = () => {
     </main>
   );
 };
-
 
 export default SubscriptionPage;

@@ -15,7 +15,9 @@ const Navbar = () => {
     <nav className="w-screen">
       <div className="flex justify-between items-center flex-row h-20 p-8">
         <div className="flex justify-center items-center">
-          <Image src={bluneo} height={60} width={50} />
+          <Link href="/">
+            <Image src={bluneo} height={60} width={50} />
+          </Link>
         </div>
 
         <div className="flex items-center relative group z-10">
