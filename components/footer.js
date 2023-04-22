@@ -8,7 +8,7 @@ import { SiOpensea } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center flex-row max-lg:flex-col-reverse max-lg:gap-4 sm:mx-20 ">
+    <div className="flex justify-center items-center flex-row max-lg:flex-col-reverse max-lg:gap-4 sm:mx-20 mt-10 ">
       <div className="flex justify-center items-center lg:items-start  flex-col lg:w-2/5">
         <span className="text-6xl max-sm:text-3xl font-bold ">Bookies</span>
         <p className="sm:text-2xl">
@@ -42,7 +42,7 @@ const Footer = () => {
         <span className="text-sm mt-6">Agrawal Book Stores </span>
       </div>
       <div className="flex justify-center items-center lg:w-3/5">
-        <Image src={bluneo} />
+        <Image src={bluneo} height={600} width={500} />
       </div>
     </div>
   );

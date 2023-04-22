@@ -13,26 +13,31 @@ const MobileNav = (props) => {
       </div>
 
       <div className="flex flex-col justify-start items-start gap-4 rounded-sm font-semibold w-full p-4 border">
-
-        <ul>Home</ul>
+        <Link href="/">
+          <ul>Home</ul>
+        </Link>
 
         <Link href="/recommendation">
           <ul>Recommendation</ul>
-          </Link>
+        </Link>
 
-          <Link href="/subscription">
+        <Link href="/subscription">
           <ul>Subscription</ul>
-          </Link>
+        </Link>
 
-        <ul>Community</ul>
+        <Link href="/community">
+          <ul>Community</ul>
+        </Link>
 
-        <ul>Review</ul>
+        <Link href="/review">
+          <ul>Review</ul>
+        </Link>
 
         <div className="flex justify-center items-center w-full mt-4">
           <Link href="/login">
-              <button class="bg-black hover:bg-red-500  text-white font-bold p-1 rounded-full h-10 w-44">
-                Login
-              </button>
+            <button class="bg-black hover:bg-red-500  text-white font-bold p-1 rounded-full h-10 w-44">
+              Login
+            </button>
           </Link>
         </div>
       </div>
