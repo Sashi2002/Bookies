@@ -11,7 +11,11 @@ const RecommendationPage = () => {
       </header>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         <div className="bg-white rounded-lg shadow-md">
-          <img src="/book1.jpg" alt="Book Cover" className="rounded-t-lg" />
+          <img
+            src="/book1.jpg"
+            alt="Book Cover"
+            className="rounded-t-lg h-96 w-full"
+          />
           <div className="p-4">
             <h2 className="text-lg font-medium mb-2">Book 1</h2>
             <p className="text-gray-700 mb-4">
@@ -29,7 +33,11 @@ const RecommendationPage = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md">
-          <img src="/book2.jpg" alt="Book Cover" className="rounded-t-lg" />
+          <img
+            src="/book2.jpg"
+            alt="Book Cover"
+            className="rounded-t-lg h-96 w-full"
+          />
           <div className="p-4">
             <h2 className="text-lg font-medium mb-2">Book 2</h2>
             <p className="text-gray-700 mb-4">
@@ -47,7 +55,11 @@ const RecommendationPage = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md">
-          <img src="/book3.jpg" alt="Book Cover" className="rounded-t-lg" />
+          <img
+            src="/book3.jpg"
+            alt="Book Cover"
+            className="rounded-t-lg h-96 w-full"
+          />
           <div className="p-4">
             <h2 className="text-lg font-medium mb-2">Book 3</h2>
             <p className="text-gray-700 mb-4">
@@ -65,7 +77,11 @@ const RecommendationPage = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md">
-          <img src="/book4.jpg" alt="Book Cover" className="rounded-t-lg" />
+          <img
+            src="/book4.jpg"
+            alt="Book Cover"
+            className="rounded-t-lg h-96 w-full"
+          />
           <div className="p-4">
             <h2 className="text-lg font-medium mb-2">Book 4</h2>
             <p className="text-gray-700 mb-4">
@@ -83,7 +99,11 @@ const RecommendationPage = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md">
-          <img src="/book5.jpg" alt="Book Cover" className="rounded-t-lg" />
+          <img
+            src="/book5.jpg"
+            alt="Book Cover"
+            className="rounded-t-lg h-96 w-full"
+          />
           <div className="p-4">
             <h2 className="text-lg font-medium mb-2">Book 5</h2>
             <p className="text-gray-700 mb-4">
@@ -101,7 +121,11 @@ const RecommendationPage = () => {
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md">
-          <img src="/book6.jpg" alt="Book Cover" className="rounded-t-lg" />
+          <img
+            src="/book6.jpg"
+            alt="Book Cover"
+            className="rounded-t-lg h-96 w-full"
+          />
           <div className="p-4">
             <h2 className="text-lg font-medium mb-2">Book 6</h2>
             <p className="text-gray-700 mb-4">
